@@ -1,32 +1,60 @@
-# Prerequisites
-*.d
+# Archivos de Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Archivos de compilación
+bin/
+obj/
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.pdb
+*.log
+*.cache
+*.csproj.user
+*.csproj.core.user
+*.Build.*
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Paquetes NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Entity Framework Migrations
+migrations/
+
+# Configuraciones de publicación
+publish/
+.publish/
+
+# Archivos generados por el sistema
+Thumbs.db
+desktop.ini
+
+# Archivos de Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Archivos de Rider
+.idea/
+*.sln.iml
+
+# Archivos temporales del sistema
+[Tt]emp/
+*.tmp
+
+# Archivos específicos de SQLite (si utilizas archivos de caché temporales)
+*.db-shm
+*.db-wal
+
+# Otros archivos de configuración o logs
+*.log
+*.tlog
+*.ide
