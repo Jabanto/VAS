@@ -9,7 +9,7 @@ Esta es una aplicación de escritorio desarrollada con **WPF** (Windows Presenta
 La solución contiene tres proyectos:
 1. **EFDataAccess**: Contiene los modelos, repositorios, migraciones y la configuración de la base de datos, así como los servicios para la lógica de negocio.
 2. **EFDataAccessTest**: Proyecto dedicado a las pruebas de los servicios y repositorios más importantes.
-3. **VAsUI**: Interfaz de usuario (UI) desarrollada con WPF siguiendo el patrón MVVM. Está conectada al proyecto `EFDataAccess`. Se ha creado una sesión inicial donde se cargan valores por defecto para permitir el uso inmediato de la aplicación.
+3. **VAS_UI**: Interfaz de usuario (UI) desarrollada con WPF siguiendo el patrón MVVM. Está conectada al proyecto `EFDataAccess`. Se ha creado una sesión inicial donde se cargan valores por defecto para permitir el uso inmediato de la aplicación.
 
 ## Características
 - Aplicación de escritorio con WPF y MVVM.
@@ -20,7 +20,7 @@ La solución contiene tres proyectos:
 ## Instalación
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/usuario/proyecto.git
+    git clone https://github.com/Jabanto/vas.git
     ```
 2. Restaura los paquetes NuGet:
     ```bash
@@ -30,7 +30,7 @@ La solución contiene tres proyectos:
     ```bash
     dotnet ef database update
     ```
-4. Ejecuta el proyecto `VAsUI`.
+4. Ejecuta el proyecto `VAS_UI`.
 
 ## Ejecución
 Una versión ejecutable está disponible para su descarga en la sección de **Releases** de este repositorio.
@@ -45,7 +45,7 @@ This is a desktop application developed with **WPF** (Windows Presentation Found
 The solution contains three projects:
 1. **EFDataAccess**: Contains models, repositories, migrations, and database configuration, as well as services for business logic.
 2. **EFDataAccessTest**: Project dedicated to testing the most important services and repositories.
-3. **VAsUI**: User Interface (UI) built with WPF following the MVVM pattern. It connects to the `EFDataAccess` project. An initial session is created where default values are loaded to allow immediate use of the application.
+3. **VAS_UI**: User Interface (UI) built with WPF following the MVVM pattern. It connects to the `EFDataAccess` project. An initial session is created where default values are loaded to allow immediate use of the application.
 
 ## Features
 - Desktop application with WPF and MVVM.
@@ -66,7 +66,7 @@ The solution contains three projects:
     ```bash
     dotnet ef database update
     ```
-4. Run the `VAsUI` project.
+4. Run the `VAS_UI` project.
 
 ## Execution
 An executable version is available for download in the **Releases** section of this repository.
@@ -81,7 +81,7 @@ Dies ist eine Desktop-Anwendung, die mit **WPF** (Windows Presentation Foundatio
 Die Lösung enthält drei Projekte:
 1. **EFDataAccess**: Enthält Modelle, Repositories, Migrationen und Datenbankkonfiguration sowie Dienste für die Geschäftslogik.
 2. **EFDataAccessTest**: Projekt für Tests der wichtigsten Dienste und Repositories.
-3. **VAsUI**: Benutzeroberfläche (UI) entwickelt mit WPF nach dem MVVM-Muster. Es ist mit dem Projekt `EFDataAccess` verbunden. Eine initiale Sitzung lädt Standardwerte, um die sofortige Nutzung der Anwendung zu ermöglichen.
+3. **VAS_UI**: Benutzeroberfläche (UI) entwickelt mit WPF nach dem MVVM-Muster. Es ist mit dem Projekt `EFDataAccess` verbunden. Eine initiale Sitzung lädt Standardwerte, um die sofortige Nutzung der Anwendung zu ermöglichen.
 
 ## Funktionen
 - Desktop-Anwendung mit WPF und MVVM.
@@ -92,7 +92,7 @@ Die Lösung enthält drei Projekte:
 ## Installation
 1. Klone das Repository:
     ```bash
-    git clone https://github.com/benutzer/projekt.git
+    git clone https://github.com/Jabanto/vas.git
     ```
 2. Wiederherstellen der NuGet-Pakete:
     ```bash
@@ -102,7 +102,7 @@ Die Lösung enthält drei Projekte:
     ```bash
     dotnet ef database update
     ```
-4. Starte das Projekt `VAsUI`.
+4. Starte das Projekt `VAS_UI`.
 
 ## Ausführung
 Eine ausführbare Version steht im **Releases** Bereich dieses Repositories zum Download bereit.
@@ -116,7 +116,7 @@ C'est une application de bureau développée avec **WPF** (Windows Presentation 
 La solution contient trois projets :
 1. **EFDataAccess** : Contient les modèles, référentiels, migrations et configuration de la base de données, ainsi que des services pour la logique métier.
 2. **EFDataAccessTest** : Projet dédié aux tests des services et référentiels les plus importants.
-3. **VAsUI** : Interface utilisateur (UI) développée avec WPF suivant le modèle MVVM. Elle est connectée au projet `EFDataAccess`. Une session initiale est créée où des valeurs par défaut sont chargées pour permettre une utilisation immédiate de l'application.
+3. **VAS_UI** : Interface utilisateur (UI) développée avec WPF suivant le modèle MVVM. Elle est connectée au projet `EFDataAccess`. Une session initiale est créée où des valeurs par défaut sont chargées pour permettre une utilisation immédiate de l'application.
 
 ## Caractéristiques
 - Application de bureau avec WPF et MVVM.
@@ -127,7 +127,7 @@ La solution contient trois projets :
 ## Installation
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/utilisateur/projet.git
+    git clone https://github.com/Jabanto/vas.git
     ```
 2. Restaurez les paquets NuGet :
     ```bash
@@ -137,7 +137,7 @@ La solution contient trois projets :
     ```bash
     dotnet ef database update
     ```
-4. Exécutez le projet `VAsUI`.
+4. Exécutez le projet `VAS_UI`.
 
 ## Exécution
 Une version exécutable est disponible pour téléchargement dans la section **Releases** de ce dépôt.
